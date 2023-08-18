@@ -20,6 +20,7 @@ function App() {
 
   useEffect(() => {
     getRecipes();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const onInputChange = (e) => {
